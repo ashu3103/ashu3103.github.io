@@ -1,0 +1,35 @@
+baseURL = "https://ashu3103/github.io/"
+title = "Ashutosh Sharma"
+theme = "hugo-coder"
+locale = "en"
+defaultContentLanguage = "en"
+
+[pagination]
+    pagerSize = 10
+
+[markup.highlight]
+    style = "github-dark"
+
+[params]
+    author = "Ashutosh Sharma"
+    info = "MS scholar @ IIT Bombay"
+    desciption = "My personal website and blog"
+    colorScheme = "auto"
+    hideColorSchemeToggle = false
+    since = 2026
+
+[[params.social]]
+    name = "GitHub"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/ashu3103/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "posts/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
